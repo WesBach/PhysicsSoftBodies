@@ -1,0 +1,18 @@
+Run in x86.
+
+CONTROLS:
+Tab		selects the model to move
+
+Model Movements:
+ENTER:		Turns the debug AABB's on and off.
+SPACE:		Switches the physics libraries.
+
+W		Moves the current model positive on the z axis. (backwards)
+A		Moves the current model negativeon the x axis. (left)
+S		Moves the current model negative on the z axis. (forward)
+D		Moves the current model positive on the x axis. (right)
+
+NumPad 1:	Moves the camera towards the current object.
+Right Shift:	Moves the camera away from the current object.
+Left		Moves the camera left.
+Right		Moves the camera right.

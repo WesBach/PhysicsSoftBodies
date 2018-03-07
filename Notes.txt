@@ -1,0 +1,28 @@
+Project Changes:
+================
+
+Models:
+=======
+I had already switched out the main sphere model before you said not to change anything.
+So the Sphere model name and will be different wherever it's being used.
+Also i may have changed the texture that it was supposed to be using. 
+Changed a bunch of radius in the modelsAndScene file for more accurate display of physics.
+Also changed the scale of the walls because the 
+
+Functionality:
+==============
+The Keyboard callback has been changed a little bit. I didn't realize that i still had some lua stuff happening when pressing a few buttons so i commented those out.
+Added the functionality for a button to switch between physics implementations.
+The camera is now a third person camera and the objects will move relative to the direction the camera is facing.
+The Main:
+=========
+I have added a second physics world for the "switching of the physics engines". As well as a second factory and initPhysics Function.
+
+
+ModelUtilities::
+Added a function to create a rigidbody and add it to theBulletPhysicsWorld and one for theCustomPhysicsWorld.
+Added externs to the new physics world and factories.
+Added the mass to the game object for use when swapping rigid bodies.
+
+
+NONE of the important code has been changed. I am only using the interface types in my "Game" code.

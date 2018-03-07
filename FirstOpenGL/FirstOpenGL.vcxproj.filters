@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f243418e-16fc-4d11-949d-086e84d49eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{9080bd39-df3d-439e-9305-ba5d981fb650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{748b9626-459b-429a-87ef-1ba4910a2235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{a5b18649-f082-429d-9de6-c3a493f4e7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{9662a59a-a30f-49b2-bfc9-8f3d8cd8e0c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controlls">
+      <UniqueIdentifier>{7ffefb85-f96a-4010-a243-fc76d3dce2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{e4537219-a0f7-4487-aa3a-84432719c53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugRenderer">
+      <UniqueIdentifier>{2331dbb3-1d40-4698-b52b-23efe997bdbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Error">
+      <UniqueIdentifier>{451f6578-5fb2-4969-80f9-442f2b456b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VAO">
+      <UniqueIdentifier>{a650c9f0-238d-4775-a98f-1d2db390858a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{67409459-c120-491a-8af8-5b8818c36656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{b5949954-cbc7-492f-b865-d8b25a3bd8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\MoveTo">
+      <UniqueIdentifier>{e582b01c-be45-4d75-b85c-0642457e0d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\Curve">
+      <UniqueIdentifier>{8858e865-2399-4c37-be83-a60790f2e72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands\OrientTo">
+      <UniqueIdentifier>{eefd921f-b2df-4b15-a743-e88e3539a524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{1b6e3d97-4557-45a6-a75b-ee8b4cc06b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{29d72e3d-f2e1-4bfa-915d-65fef3e258ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp">
+      <UniqueIdentifier>{d24ac34f-a3e1-4d89-906d-50169a3c29cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TheMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cContactInfo.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelUtilities.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLoader.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB_Tri.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB_Center_Radius.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Fly_Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Follow_Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Controlls</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cTriangle.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cVertex_xyz_rgb_n.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMathHelper.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringHelper.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CStringUtils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOMeshManager.cpp">
+      <Filter>VAO</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugRenderer.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="sMeshDrawInfo.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicalProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugRenderer_BuiltInShapes.cpp">
+      <Filter>DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralWithXYZDistance.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowObject.cpp">
+      <Filter>Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToDistanceTime.cpp">
+      <Filter>Commands\MoveTo</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToDistanceVelocity.cpp">
+      <Filter>Commands\MoveTo</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveXY.cpp">
+      <Filter>Commands\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveYXZ.cpp">
+      <Filter>Commands\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="CurveYZX.cpp">
+      <Filter>Commands\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientToTime.cpp">
+      <Filter>Commands\OrientTo</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientToWorldSpace.cpp">
+      <Filter>Commands\OrientTo</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureManager.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureFromBMP.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C24BitBMPpixel.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cEmitter.cpp">
+      <Filter>Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaBrain.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cAssimp.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="cAssimp_Imp.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cContactInfo.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelUtilities.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB_Tri.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB_Center_Radius.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Controlls</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cTriangle.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cVertex_xyz_rgb_n.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer.h">
+      <Filter>DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="iDebugRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLError.h">
+      <Filter>Error</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globalOpenGL_GLFW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMathHelper.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringHelper.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CStringUtils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOMeshManager.h">
+      <Filter>VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="sVAOInfo.h">
+      <Filter>VAO</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_xyz_rgba_n_uv2_bt.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="sMeshDrawInfo.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhysicalObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicalProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaBrain.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="iCommand.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiralWithXYZDistance.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowObject.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToDistanceTime.h">
+      <Filter>Commands\MoveTo</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToDitanceVelocity.h">
+      <Filter>Commands\MoveTo</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveXY.h">
+      <Filter>Commands\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveYXZ.h">
+      <Filter>Commands\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="CurveYZX.h">
+      <Filter>Commands\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientToTime.h">
+      <Filter>Commands\OrientTo</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientToWorldSpace.h">
+      <Filter>Commands\OrientTo</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexUnitInfoBrief.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureManager.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureFromBMP.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C24BitBMPpixel.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="sTextureBindBlendInfo.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cEmitter.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticle.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="cShader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderProgram.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cAssimp.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="cAssimp_Imp.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\simpleVert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\simpleFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="codeSnippets.txt" />
+    <Text Include="modelsAndScene.txt">
+      <Filter>Utilities</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
